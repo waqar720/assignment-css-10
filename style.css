@@ -1,35 +1,41 @@
 .d2 {
     background-color: red;
+    padding-top: 10px;
+
     border: 2px;
     width: 100px;
     height: 100px;
     border-color: blue;
-    margin: 5px;
+    text-align: center;
     border-style: solid;
     display: inline-block;
-    box-shadow: 
+    margin-left: 450px;
 }
 .d1 {
     background-color: rgb(158, 198, 231);
+    font-size: 20PX;
+    text-align: center;
+    align-content: center;
     border: 2px;
-    width: 100px;
+    width: 150px;
     height: 100px;
     border-color: red;
-    margin: 5px;
     border-style: solid;
     display: inline-block;
 }
 .d3 {
     background-color:#93f5f2 ;
     border: 2px;
+    text-align: right;
+    padding-top: 20px;
     width: 100px;
     height: 100px;
     border-color: green;
-    margin: 5px;
     border-style: solid;
     display: inline-block;
 }
 .d4 {
+    display: flex;
     background-color: hsl(309, 74%, 77%);
     border: 2px;
     width: 100px;
@@ -48,20 +54,28 @@ body {
     background-attachment: fixed;
 }
 .name{
+    margin-left: 456px;
     font-style: italic;
-    font-size: 50px;
-
+    font-size: 20px;
 }
 .card{
     background: linear-gradient(rgb(209, 68, 68), rgb(64, 105, 64),rgb(2, 2, 26))
 }
-.card{
+.card{ 
+    margin: auto;
     width: 350px;
     height: 350px;
-    border-style: double;
-    back
-}
-.image {
-    border-radius: 200px;
     border-style: solid;
+   text-align: center;
+   }
+
+.cardname {
+    margin:24px;
+}
+.discription{
+    margin: 25px;
+}
+.button{
+    text-align: justify;
+    background: radial-gradient(red,blue);
 }
